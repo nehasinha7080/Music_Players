@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navigation">
+
+    <!-- Left Navigation Bar -->
+    <div class="nav-left">
+      <div class="logo">
+        <img src="assets/img/logo.jpg" alt="logo" />
+        <div class="logo-name">
+          <h5>Ninja</h5>
+          <h4 class="head_color">Studio</h4>
+        </div>
+      </div>
+
+      <h4 class="head_color spacing-10x">Favourites</h4>
+    </div>
+
+    <!-- Right Navigation Bar -->
+    <div class="nav-right">
+      <div class="search-box spacing-10x">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" name="box" placeholder="Search" />
+        <i class="fa fa-microphone" aria-hidden="true"></i>
+      </div>
+
+      <div class="notification spacing-10x">
+        <i class="fa fa-bell" aria-hidden="true"></i>
+      </div>
+
+      <div class="logo spacing-10x">
+        <img src="assets/img/profile.jpg" alt="logo" class="logo" />
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div id="main-container">
+    <!-- Container for all the contents -->
+    <div class="left-container">
+
+      <!-- Corousel Section -->
+      <section class="cor_section caro">
+        <div class="caro_container">
+          <ul class="cor_image">
+            <li class="lat_card">
+              <img src="assets/img/bollywood.jpg" alt="Not Loading" />
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/holly-bolly.jpg" alt="Not Loading" />
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hollywood.jpg" alt="Not Loading" />
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <!-- Latest Release Section -->
+      <section class="lat_release caro">
+        <div class="head">
+          <h2 class="head_color">Latest Release</h2>
+        </div>
+
+        <div class="caro_container">
+          <ul class="lat_image">
+            <li class="lat_card">
+              <img src="assets/img/lat_rel1.jpe" alt="Not Loading" />
+
+              <div class="lat_text">
+                <h5 class="head_color">New Rules</h5>
+                <h5 class="date">AUG 11, 2021</h5>
+              </div>
+
+              <div class="lat_actions">
+                <span class="options">
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                  <div class="option_bar">
+                    <ul>
+                      <li class="list_names">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Play Now</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Add to Queue</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Add to Favourite</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Get Info</a>
+                      </li>
+                    </ul>
+                  </div>
+                </span>
+
+                <h5 class="date">4.44</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat_rel2.jpe" alt="Not Loading" />
+
+              <div class="lat_text">
+                <h5 class="head_color">I knew you were trouble</h5>
+                <h5 class="date">SEPT 01, 2021</h5>
+              </div>
+
+              <div class="lat_actions">
+                <span class="options">
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                  <div class="option_bar">
+                    <ul>
+                      <li class="list_names">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Play Now</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Add to Queue</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Add to Favourite</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Get Info</a>
+                      </li>
+                    </ul>
+                  </div>
+                </span>
+
+                <h5 class="date">4.44</h5>
+              </div>
+
+            </li>
+            <li class="lat_card">
+              <img src="assets/img/lat_rel3.jpe" alt="Not Loading" />
+
+              <div class="lat_text">
+                <h5 class="head_color">Rim Jhim</h5>
+                <h5 class="date">NOV 14, 2021</h5>
+              </div>
+
+              <div class="lat_actions">
+                <span class="options">
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                  <div class="option_bar">
+                    <ul>
+                      <li class="list_names">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Play Now</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Add to Queue</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Add to Favourite</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Get Info</a>
+                      </li>
+                    </ul>
+                  </div>
+                </span>
+                <h5 class="date">4.44</h5>
+
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat_rel4.jpg" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Soch Liya</h5>
+                <h5 class="date">JUNE 26, 2021</h5>
+              </div>
+
+              <div class="lat_actions">
+                <span class="options">
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                  <div class="option_bar">
+                    <ul>
+                      <li class="list_names">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Play Now</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Add to Queue</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Add to Favourite</a>
+                      </li>
+                      <li class="list_names">
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        <a href="#" class="list_items">Get Info</a>
+                      </li>
+                    </ul>
+                  </div>
+                </span>
+                <h5 class="date">4.44</h5>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- Popular Artists -->
+      <section class="pop_artist caro caro_circle">
+        <div class="head">
+          <h2 class="head_color">Popular Artist</h2>
+        </div>
+
+        <div class="caro_container caro">
+          <ul class="lat_image hide-scroller">
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/ed-sheeran.jpg" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Ed Sheeran</h3>
+            </li>
+
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/coldplay.png" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Cold Play</h3>
+            </li>
+
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/taylor-swift.jpg" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Taylor</h3>
+            </li>
+
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/selena.png" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Selena</h3>
+            </li>
+
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/zayn-khan.jpg" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Zayn</h3>
+            </li>
+
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/charlie.jpg" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Charlie Puth</h3>
+            </li>
+
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/bruno.jpg" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Bruno Mars</h3>
+            </li>
+
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/the-chainsmokers_59.jpg" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Chainsmokers</h3>
+            </li>
+
+            <li class="lat_card">
+              <a href="index2.html" target="_blank">
+                <img src="assets/img/imagine-dragons.jpg" alt="Not Loading" />
+              </a>
+              <h3 class="head_color">Imagine Dragons</h3>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- Stations Section -->
+        <div class="station_container caro caro_container">
+          <ul class="lat_image hide-scroller">
+            <li class="lat_card">
+              <img class="image" src="assets/img/station_logo.png" alt="Not Loading" />
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/love.jpe" alt="Not Loading" />
+              <h3 class="head_color">Love</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/retro.jpe" alt="Not Loading" />
+              <h3 class="head_color">Retro</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/chill.jpg" alt="Not Loading" />
+              <h3 class="head_color">Chill</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/workout.jpg" alt="Not Loading" />
+              <h3 class="head_color">Workout</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/rock.jpe" alt="Not Loading" />
+              <h3 class="head_color">Rock</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/pop.jpe" alt="Not Loading" />
+              <h3 class="head_color">Pop</h3>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <!-- Mood Section -->
+      <section class="mood_section caro">
+        <div class="caro_container">
+          <ul class="lat_image hide-scroller">
+            <li class="lat_card">
+              <img src="assets/img/party.jpe" alt="Not Loading" />
+              <h3 class="head_color">Party</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/electronic.jpg" alt="Not Loading" />
+              <h3 class="head_color">Electronics</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/road-trip.jpe" alt="Not Loading" />
+              <h3 class="head_color">Road Trip</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hip-hop.jpg" alt="Not Loading" />
+              <h3 class="head_color">Hip Hop</h3>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/retro.jpe" alt="Not Loading" />
+              <h3 class="head_color">Retro</h3>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <!-- Latest English Section -->
+      <section class="lat_english caro">
+        <div class="head">
+          <h2 class="head_color">Latest English</h2>
+        </div>
+
+        <div class="caro_container">
+          <ul class="lat_image hide-scroller">
+            <li class="lat_card">
+              <img src="assets/img/lat-eng1.jpg" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Believe</h5>
+                <h5 class="date">AUG 11, 2017</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat-eng2.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Avril Lavigne</h5>
+                <h5 class="date">DEC 14, 2017</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat-eng3.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">2X Mathea</h5>
+                <h5 class="date">JUN 19, 2018</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat-eng4.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Keep Me In The Moment</h5>
+                <h5 class="date">NOV 11, 2020</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat-eng5.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h3 class="head_color">Do It Again</h5>
+                  <h5 class="date">AUG 24, 2020</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat-eng6.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">If I Fall In Love</h5>
+                <h5 class="date">FEB 30, 2019</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat-eng7.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Descpacito</h5>
+                <h5 class="date">APR 22, 2020</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/lat-eng8.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Jealous</h5>
+                <h5 class="date">JAN 05, 2021</h5>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <!-- Latest Hindi Section -->
+      <section class="lat_english caro">
+        <div class="head">
+          <h2 class="head_color">Latest Hindi</h2>
+        </div>
+
+        <div class="caro_container">
+          <ul class="lat_image hide-scroller">
+            <li class="lat_card">
+              <img src="assets/img/hindi5.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Duniyaa</h5>
+                <h5 class="date">AUG 09, 2020</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hindi7.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Lo Safar</h5>
+                <h5 class="date">NOV 04, 2021</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hindi4.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Baarish</h5>
+                <h5 class="date">MAY 16, 2019</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hindi3.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Shershaah</h5>
+                <h5 class="date">APR 29, 2020</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hindi2.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h3 class="head_color">Kaabil</h5>
+                  <h5 class="date">JAN 24, 2019</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hindi1.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Rim Jhim</h5>
+                <h5 class="date">SEPT 14, 2021</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hindi6.jpg" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Dhadak</h5>
+                <h5 class="date">AUG 11, 2020</h5>
+              </div>
+            </li>
+
+            <li class="lat_card">
+              <img src="assets/img/hindi8.jpe" alt="Not Loading" />
+              <div class="lat_text">
+                <h5 class="head_color">Tera Naam</h5>
+                <h5 class="date">JAN 05, 2021</h5>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Container for Queue -->
+    <div class="right-container">
+      <div class="queue">
+
+        <div class="top">
+          <span id="main_queue" class="left">Queue</span>
+
+          <div class="right">
+            <span>Queue</span>
+
+            <span class="options">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+              <div class="option_bar">
+                <ul>
+                  <li class="list_names">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                    <a href="#" class="list_items">Play Now</a>
+                  </li>
+                  <li class="list_names">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <a href="#" class="list_items">Add to Queue</a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+
+          </div>
+        </div>
+
+        <!-- Left Queue Playlist-->
+        <div class="innerScroll">
+          <ul class="scroll_img">
+            <li id="track1" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>01</h5>
+                <img src="assets/img/despacito.jpe" alt="track1">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Despacito</strong></div>
+                  <small class="t_over">Spanish</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track2" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>02</h5>
+                <img src="assets/img/willow.jpg" alt="track2">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Willow</strong></div>
+                  <small class="t_over">Willow</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track3" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>03</h5>
+                <img src="assets/img/divide.jpg" alt="track3">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Divide</strong></div>
+                  <small class="t_over">Cold</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track4" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>04</h5>
+                <img src="assets/img/lover.jpg" alt="track4">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Lover</strong></div>
+                  <small class="t_over">Blueray</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track5" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>05</h5>
+                <img src="assets/img/7-rings.jpg" alt="track5">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">7 Rings</strong></div>
+                  <small class="t_over">Rings</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track6" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>06</h5>
+                <img src="assets/img/stay.jpe" alt="track6">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Stay</strong></div>
+                  <small class="t_over">Slow</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track7" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>07</h5>
+                <img src="assets/img/Imagine-Dragons-Believer.jpg" alt="track7">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Believer</strong></div>
+                  <small class="t_over">Hip Hop</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track8" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>08</h5>
+                <img src="assets/img/reputation.jpe" alt="track8">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Reputation</strong></div>
+                  <small class="t_over">Classy</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track9" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>09</h5>
+                <img src="assets/img/we-dont-talk-anymore.jpg" alt="track9">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">We Don't Talk Anymore</strong></div>
+                  <small class="t_over">Sad</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+            <li id="track10" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>10</h5>
+                <img src="assets/img/despacito.jpe" alt="track1">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Despacito</strong></div>
+                  <small class="t_over">Spanish</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track11" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>11</h5>
+                <img src="assets/img/willow.jpg" alt="track2">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Willow</strong></div>
+                  <small class="t_over">Willow</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track12" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>12</h5>
+                <img src="assets/img/divide.jpg" alt="track3">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Divide</strong></div>
+                  <small class="t_over">Cold</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track13" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>13</h5>
+                <img src="assets/img/lover.jpg" alt="track4">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Lover</strong></div>
+                  <small class="t_over">Blueray</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track14" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>14</h5>
+                <img src="assets/img/7-rings.jpg" alt="track5">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">7 Rings</strong></div>
+                  <small class="t_over">Rings</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track15" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>15</h5>
+                <img src="assets/img/stay.jpe" alt="track6">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Stay</strong></div>
+                  <small class="t_over">Slow</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track16" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>16</h5>
+                <img src="assets/img/Imagine-Dragons-Believer.jpg" alt="track7">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Believer</strong></div>
+                  <small class="t_over">Hip Hop</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track17" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>17</h5>
+                <img src="assets/img/reputation.jpe" alt="track8">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">Reputation</strong></div>
+                  <small class="t_over">Classy</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track18" class=" sorttableQueue now_Play">
+              <div class="left_queue">
+                <h5>18</h5>
+                <img src="assets/img/we-dont-talk-anymore.jpg" alt="track9">
+                <div class="song_ply t_over">
+                  <div><strong class="t_over">We Don't Talk Anymore</strong></div>
+                  <small class="t_over">Sad</small>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Player Bottom -->
+  <!-- <div class="player_container"> -->
+  <div id="bottomplayer" class="ply_bar">
+
+    <!-- Left Player -->
+    <div class="_lt">
+      <div class="lazyload">
+        <a href="#">
+          <img src="assets/img/coldplay1.jpe" alt="not loading">
+        </a>
+      </div>
+
+      <div class="_txt">
+        <strong class="t_over">
+          <a href="#">Let Somebody Go</a>
+        </strong>
+        <small class="t_over">
+          <a href="#">ColdPlay</a>
+        </small>
+      </div>
+
+      <button class="sm-hide _ic item-to-be-hidden" title="Add to Favourite">
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+      </button>
+
+      <!-- <button class="sm-hide _ic" title="More Options" data-position="fixed"> -->
+      <span class="options sm-hide _ic item-to-be-hidden" title="More Options" data-position="fixed">
+        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+
+        <div class="option_bar1">
+          <ul>
+            <li class="list_names">
+              <i class="fa fa-play" aria-hidden="true"></i>
+              <a href="#" class="list_items">Share</a>
+            </li>
+
+            <li class="list_names">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <a href="#" class="list_items">Add to Playlist</a>
+            </li>
+
+            <li class="list_names">
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+              <a href="#" class="list_items">Get Song Info</a>
+            </li>
+
+            <li class="list_names">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+              <a href="#" class="list_items">Download</a>
+            </li>
+
+            <li class="list_names">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+              <a href="#" class="list_items">Play Similar Songs</a>
+            </li>
+
+          </ul>
+        </div>
+      </span>
+      <!-- </button> -->
+    </div>
+
+    <!-- Mid Player -->
+    <div class="_md playerCtr">
+      <div class="time sm-hide item-to-be-hidden">
+        <span class="_a">00:00</span>
+        <span class="sepr">/</span>
+        <span class="_b">00:00</span>
+      </div>
+
+      <!-- <div class="music-3 item-to-be-hidden">
+        <small class="timested">00:00</small>
+        <div class="trackTimer">
+          <input class="range" min="0" data-seek="" type="range" step="0.01">
+        </div>
+        <small class="timested">00:00</small>
+      </div>  -->
+
+      <button title="Shuffle" class="shuffle sm-hide s_off item-to-be-hidden">
+        <i class="fa fa-random" aria-hidden="true"></i>
+      </button>
+      <button title="Previous Song" class="prev sm-hide item-to-be-hidden">
+        <i class="fa fa-step-backward" aria-hidden="true"></i>
+      </button>
+      <button title="Play" class="play">
+        <i class="fa fa-play" aria-hidden="true"></i>
+      </button>
+      <button title="Next Song" class="next sm-hide item-to-be-hidden">
+        <i class="fa fa-step-forward" aria-hidden="true"></i>
+      </button>
+      <button title="Repeat" class="repeat sm-hide r_off item-to-be-hidden">
+        <i class="fa fa-repeat" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <!-- Right Player -->
+    <div class="_rt">
+      <div class="_a sm-hide item-to-be-hidden">
+        <div class="Volume">
+          <button title="Volume" class="Button">
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+          </button>
+          <div class="vol_wrap">
+            <div class="_inner">
+              <input class="Volume_slider" title="Volume" type="range" step="0.01" min="0" max="100" id="volume">
+              <div class="TimeLine_scrubbed" style="width: 100%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="_b sm-hide">
+        <i class="fa fa-expand" id="expandMusicPanel" aria-hidden="true"></i>
+      </div>
+    </div>
+
+  </div>
+  <!-- </div> -->
+  <div class="player-expanded" id="expandThisPanelOnClick">
+    <div class="music-panel">
+      <div class="expand-icon">
+        <i class="fa fa-expand" id="expandMusicPanelClose" aria-hidden="true"></i>
+      </div>
+      <div class="lazyload">
+        <a href="#">
+          <img src="assets/img/coldplay1.jpe" alt="not loading">
+        </a>
+      </div>
+      <div class="music-info">
+        <div class="music-1">
+          <strong class="t_over">Let Somebody Go</strong>
+
+          <div class="options sm-hide _ic" title="More Options" data-position="fixed">
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+
+            <div class="option_bar1">
+              <ul>
+                <li class="list_names">
+                  <i class="fa fa-play" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Share</a>
+                </li>
+
+                <li class="list_names">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Add to Playlist</a>
+                </li>
+
+                <li class="list_names">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Get Song Info</a>
+                </li>
+
+                <li class="list_names">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Download</a>
+                </li>
+
+                <li class="list_names">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Play Similar Songs</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="music-2"><a>ColdPlay</a>
+          <i class="fa fa-heart-o" aria-hidden="true"></i>
+        </div>
+        <div class="music-3">
+          <small class="timested">00:00</small>
+          <div class="trackTimer">
+            <input class="range" min="0" data-seek="" type="range" step="0.01">
+          </div>
+          <small class="timested">00:00</small>
+        </div>
+        <div class="music-4">
+          <button title="Shuffle" class="shuffle sm-hide s_off">
+            <i class="fa fa-random" aria-hidden="true"></i>
+          </button>
+          <button title="Previous Song" class="prev sm-hide">
+            <i class="fa fa-step-backward" aria-hidden="true"></i>
+          </button>
+          <button title="Play" class="play">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </button>
+          <button title="Next Song" class="next sm-hide">
+            <i class="fa fa-step-forward" aria-hidden="true"></i>
+          </button>
+          <button title="Repeat" class="repeat sm-hide r_off">
+            <i class="fa fa-repeat" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script>
+    const enablePanel = false;
+    document.getElementById("expandMusicPanel").addEventListener("click", myFunction);
+    document.getElementById("expandMusicPanelClose").addEventListener("click", myFunction);
+
+    function myFunction() {
+      var element = document.getElementById("expandThisPanelOnClick");
+      element.classList.toggle("enabled");
+    }
+  </script>
+</body>
+
+</html>

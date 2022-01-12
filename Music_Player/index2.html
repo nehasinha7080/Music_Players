@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artists Playlist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style2.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navigation">
+    <!-- Left Navigation Bar -->
+    <div class="nav-left">
+      <div class="logo">
+        <img src="assets/img/logo.jpg" alt="logo" />
+        <div class="logo-name">
+          <h5>Ninja</h5>
+          <h4 class="head_color">Studio</h4>
+        </div>
+      </div>
+
+      <h4 class="head_color spacing-10x">Favourites</h4>
+    </div>
+
+    <!-- Right Navigation Bar -->
+    <nav class="nav-right">
+      <div class="search-box spacing-10x">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" name="box" placeholder="Search" />
+        <i class="fa fa-microphone" aria-hidden="true"></i>
+      </div>
+
+      <div class="notification spacing-10x">
+        <i class="fa fa-bell" aria-hidden="true"></i>
+      </div>
+
+      <div class="logo spacing-10x">
+        <img src="assets/img/profile.jpg" alt="logo" class="logo" />
+      </div>
+    </nav>
+  </nav>
+
+  <!-- Main Container -->
+  <div id="main-container">
+    <!-- Left Container -->
+    <div class="left-container">
+      <!-- Singer Section -->
+      <section class="singer-section caro">
+        <div class="container_1">
+          <div class="img_cont">
+            <img src="assets/img/colplayalbum.jpeg" />
+          </div>
+
+          <div class="content_cont">
+            <div class="artist">
+              <h1 class="band">ColdPlay</h1>
+              <h6>851 Followers</h6>
+            </div>
+            <h5 class="singer-heading">British Band</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              atque, consectetur officiis id ab porro autem obcaecati odio
+              veritatis placeat nisi vel est aspernatur cupiditate, earum
+              numquam enim ducimus illum quia labore. Accusamus, iste quod ut
+              alias reprehenderit ratione, libero corporis possimus ipsa.
+              Doloribus laboriosam ipsam fugiat! Quis cumque saepe aliquam,
+              omnis praesentium laboriosam hic veritatis esse.
+            </p>
+            <div class="play">
+              <button class="myButton">Play All</button>
+              <h5>Follow</h5>
+            </div>
+            <h6 class="track">247 Tracks | 128 Albums</h6>
+          </div>
+        </div>
+      </section>
+
+      <!-- List of songs -->
+      <section class="list-songs">
+        <ul class="scroll_img">
+          <li id="track1" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>01</h5>
+              <img src="assets/img/coldplay1.jpe" alt="track1" />
+              <div class="song_ply t_over">
+                <div><strong>Let Somebody Go</strong></div>
+                <small>ColdPlay</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+
+          <li id="track2" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>02</h5>
+              <img src="assets/img/coldplay2.jpg" alt="track2" />
+              <div class="song_ply t_over">
+                <div><strong>Something Just Like This</strong></div>
+                <small>I Want</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+
+          <li id="track3" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>03</h5>
+              <img src="assets/img/coldplay3.png" alt="track3" />
+              <div class="song_ply t_over">
+                <div><strong>My Universe</strong></div>
+                <small>btsmyuniverse</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+
+          <li id="track4" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>04</h5>
+              <img src="assets/img/coldplay4.jpe" alt="track4" />
+              <div class="song_ply t_over">
+                <div><strong>Up And Up</strong></div>
+                <small>Up & Up</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+
+          <li id="track5" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>05</h5>
+              <img src="assets/img/coldplay5.jpg" alt="track5" />
+              <div class="song_ply t_over">
+                <div><strong>Higher Power</strong></div>
+                <small>ColdPlay</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+
+          <li id="track6" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>06</h5>
+              <img src="assets/img/coldplay6.jpg" alt="track6" />
+              <div class="song_ply t_over">
+                <div><strong>Radio Head</strong></div>
+                <small>Flume</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+
+          <li id="track7" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>07</h5>
+              <img src="assets/img/coldplay7.jpg" alt="track7" />
+              <div class="song_ply t_over">
+                <div><strong>Everyday Life</strong></div>
+                <small>HipHopza</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+
+          <li id="track8" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>08</h5>
+              <img src="assets/img/coldplay18.jpg" alt="track8" />
+              <div class="song_ply t_over">
+                <div><strong>Gravity</strong></div>
+                <small>Coldplay</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+
+          <li id="track9" class="sorttableQueue now_Play">
+            <div class="left_queue">
+              <h5>09</h5>
+              <img src="assets/img/coldplay9.jpg" alt="track9" />
+              <div class="song_ply t_over">
+                <div><strong>Death</strong></div>
+                <small>Viva</small>
+              </div>
+            </div>
+            <div class="right_queue">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Right Container -->
+    <div class="right-container">
+      <!-- Similar Artists -->
+      <div class="queue">
+        <div class="top">
+          <h2 class="left">Similar Artists</h2>
+          <div class="right">
+            <a href="#">View All</a>
+          </div>
+        </div>
+
+        <!-- Left Queue Playlist -->
+        <div class="innerScroll">
+          <ul class="scroll_img">
+            <li id="track1" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <img src="assets/img/we-dont-talk-anymore.jpg" alt="track1" />
+                <div class="song_ply t_over">
+                  <h5 class="title">We Don't Talk Anymore</h5>
+                  <h6 class="date">Sad</h6>
+                </div>
+              </div>
+              <div class="more-options">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <h6 class="date">4:44</h6>
+              </div>
+            </li>
+
+            <li id="track2" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <img src="assets/img/reputation.jpe" alt="track2" />
+                <div class="song_ply t_over">
+                  <h5 class="title">Reputation</h5>
+                  <h6 class="date">Classy</h6>
+                </div>
+              </div>
+              <div class="more-options">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <h6 class="date">4:44</h6>
+              </div>
+            </li>
+
+            <li id="track3" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <img src="assets/img/Te_Amo_-_Rihanna.png" alt="track3" />
+                <div class="song_ply t_over">
+                  <h5 class="title">Te Amo</h5>
+                  <h6 class="date">Pop Band</h6>
+                </div>
+              </div>
+              <div class="more-options">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <h6 class="date">4:44</h6>
+              </div>
+            </li>
+
+            <li id="track4" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <img src="assets/img/Imagine-Dragons-Believer.jpg" alt="track4" />
+                <div class="song_ply t_over">
+                  <h5 class="title">Believer</h5>
+                  <h6 class="date">Hip Hop</h6>
+                </div>
+              </div>
+              <div class="more-options">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <h6 class="date">4:44</h6>
+              </div>
+            </li>
+
+            <li id="track5" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <img src="assets/img/stay.jpe" alt="track5" />
+                <div class="song_ply t_over">
+                  <h5 class="title">Stay</h5>
+                  <h6 class="date">Slow</h6>
+                </div>
+              </div>
+              <div class="more-options">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <h6 class="date">4:44</h6>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Recently Played -->
+      <div class="queue recent-queue">
+        <div class="top">
+          <h2 class="left">Recently Played</h2>
+          <div class="right">
+            <a href="#">View All</a>
+          </div>
+        </div>
+
+        <div class="innerScroll">
+          <ul class="scroll_img">
+            <li id="track1" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <h6>01</h6>
+                <img src="assets/img/7-rings.jpg" alt="track1" />
+                <div class="song_ply t_over">
+                  <h5 class="title">7 Rings</h5>
+                  <h6 class="date">Rings</h6>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track1" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <h6>02</h6>
+                <img src="assets/img/lover.jpg" alt="track1" />
+                <div class="song_ply t_over">
+                  <h5 class="title">Lover</h5>
+                  <h6 class="date">Blueray</h6>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track1" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <h6>03</h6>
+                <img src="assets/img/divide.jpg" alt="track1" />
+                <div class="song_ply t_over">
+                  <h5 class="title">Divide</h5>
+                  <h6 class="date">Cold</h6>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track1" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <h6>04</h6>
+                <img src="assets/img/willow.jpg" alt="track1" />
+                <div class="song_ply t_over">
+                  <h5 class="title">Willow</h5>
+                  <h6 class="date">Willow</h6>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+
+            <li id="track1" class="sorttableQueue now_Play">
+              <div class="left_queue">
+                <h6>05</h6>
+                <img src="assets/img/despacito.jpe" alt="track1" />
+                <div class="song_ply t_over">
+                  <h5 class="title">Despacito</h5>
+                  <h6 class="date">Spanish</h6>
+                </div>
+              </div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+    <!-- Player Bottom -->
+  <!-- <div class="player_container"> -->
+  <div id="bottomplayer" class="ply_bar">
+
+    <!-- Left Player -->
+    <div class="_lt">
+      <div class="lazyload">
+        <a href="#">
+          <img src="assets/img/coldplay1.jpe" alt="not loading">
+        </a>
+      </div>
+
+      <div class="_txt">
+        <strong class="t_over">
+          <a href="#">Let Somebody Go</a>
+        </strong>
+        <small class="t_over">
+          <a href="#">ColdPlay</a>
+        </small>
+      </div>
+
+      <button class="sm-hide _ic item-to-be-hidden" title="Add to Favourite">
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+      </button>
+
+      <!-- <button class="sm-hide _ic" title="More Options" data-position="fixed"> -->
+      <span class="options sm-hide _ic item-to-be-hidden" title="More Options" data-position="fixed">
+        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+
+        <div class="option_bar1">
+          <ul>
+            <li class="list_names">
+              <i class="fa fa-play" aria-hidden="true"></i>
+              <a href="#" class="list_items">Share</a>
+            </li>
+
+            <li class="list_names">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <a href="#" class="list_items">Add to Playlist</a>
+            </li>
+
+            <li class="list_names">
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+              <a href="#" class="list_items">Get Song Info</a>
+            </li>
+
+            <li class="list_names">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+              <a href="#" class="list_items">Download</a>
+            </li>
+
+            <li class="list_names">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+              <a href="#" class="list_items">Play Similar Songs</a>
+            </li>
+
+          </ul>
+        </div>
+      </span>
+      <!-- </button> -->
+    </div>
+
+    <!-- Mid Player -->
+    <div class="_md playerCtr">
+      <div class="time sm-hide item-to-be-hidden">
+        <span class="_a">00:00</span>
+        <span class="sepr">/</span>
+        <span class="_b">00:00</span>
+      </div>
+
+      <button title="Shuffle" class="shuffle sm-hide s_off item-to-be-hidden">
+        <i class="fa fa-random" aria-hidden="true"></i>
+      </button>
+      <button title="Previous Song" class="prev sm-hide item-to-be-hidden">
+        <i class="fa fa-step-backward" aria-hidden="true"></i>
+      </button>
+      <button title="Play" class="play">
+        <i class="fa fa-play" aria-hidden="true"></i>
+      </button>
+      <button title="Next Song" class="next sm-hide item-to-be-hidden">
+        <i class="fa fa-step-forward" aria-hidden="true"></i>
+      </button>
+      <button title="Repeat" class="repeat sm-hide r_off item-to-be-hidden">
+        <i class="fa fa-repeat" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <!-- Right Player -->
+    <div class="_rt">
+      <div class="_a sm-hide item-to-be-hidden">
+        <div class="Volume">
+          <button title="Volume" class="Button">
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+          </button>
+          <div class="vol_wrap">
+            <div class="_inner">
+              <input class="Volume_slider" title="Volume" type="range" step="0.01" min="0" max="100" id="volume">
+              <div class="TimeLine_scrubbed" style="width: 100%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="_b sm-hide">
+        <i class="fa fa-expand" id="expandMusicPanel" aria-hidden="true"></i>
+      </div>
+    </div>
+
+  </div>
+  <!-- </div> -->
+  <div class="player-expanded" id="expandThisPanelOnClick">
+    <div class="music-panel">
+      <div class="expand-icon">
+        <i class="fa fa-expand" id="expandMusicPanelClose" aria-hidden="true"></i>
+      </div>
+      <div class="lazyload">
+        <a href="#">
+          <img src="assets/img/coldplay1.jpe" alt="not loading">
+        </a>
+      </div>
+      <div class="music-info">
+        <div class="music-1">
+          <strong class="t_over">Let Somebody Go</strong>
+
+          <div class="options sm-hide _ic" title="More Options" data-position="fixed">
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+
+            <div class="option_bar1">
+              <ul>
+                <li class="list_names">
+                  <i class="fa fa-play" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Share</a>
+                </li>
+
+                <li class="list_names">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Add to Playlist</a>
+                </li>
+
+                <li class="list_names">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Get Song Info</a>
+                </li>
+
+                <li class="list_names">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Download</a>
+                </li>
+
+                <li class="list_names">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  <a href="#" class="list_items">Play Similar Songs</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="music-2"><a>ColdPlay</a>
+          <i class="fa fa-heart-o" aria-hidden="true"></i>
+        </div>
+        <div class="music-3">
+          <small class="timested">00:00</small>
+          <div class="trackTimer">
+            <input class="range" min="0" data-seek="" type="range" step="0.01">
+          </div>
+          <small class="timested">00:00</small>
+        </div>
+        <div class="music-4">
+          <button title="Shuffle" class="shuffle sm-hide s_off">
+            <i class="fa fa-random" aria-hidden="true"></i>
+          </button>
+          <button title="Previous Song" class="prev sm-hide">
+            <i class="fa fa-step-backward" aria-hidden="true"></i>
+          </button>
+          <button title="Play" class="play">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </button>
+          <button title="Next Song" class="next sm-hide">
+            <i class="fa fa-step-forward" aria-hidden="true"></i>
+          </button>
+          <button title="Repeat" class="repeat sm-hide r_off">
+            <i class="fa fa-repeat" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script>
+    const enablePanel = false;
+    document.getElementById("expandMusicPanel").addEventListener("click", myFunction);
+    document.getElementById("expandMusicPanelClose").addEventListener("click", myFunction);
+    
+    function myFunction() {
+      var element = document.getElementById("expandThisPanelOnClick");
+      element.classList.toggle("enabled");
+    }
+  </script>
+  <!-- </div> -->
+
+</body>
+
+</html>
